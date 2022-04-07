@@ -1,40 +1,20 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# SmartHR TextStyle Converter
 
-  https://www.figma.com/plugin-docs/setup/
+## 読み込み方法
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+1. [リリース](https://github.com/uknmr/smarthr-textstyle-converter/releases/tag/0.0.1)から `SmartHR.TextStyle.Converter.zip` をダウンロードしてくる。
+1. 適当な場所に解凍する
+1. Figma でプロジェクトを開き、Plugins > Development > Import plugin from manifest... を開く
+  ![](./assets/plugin01.png)
+1. Finder が開くので先に解答したフォルダ内の `manifest.json` を選択し「開く」
+1. Figma が解凍先のフォルダにアクセスしてもいいか聞いてくるので許可して
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+## 起動方法
 
-  https://nodejs.org/en/download/
+Plugin > Development から `SmartHR TextStyle Converter` を選択するか、Quick actions...（`⌘ + /`）に `SmartHR TextStyle Converter` を選択してください。
 
-Next, install TypeScript using the command:
+直前の Plugin を呼び出す `⌘ + ⌥ + P` のショートカットを覚えておくと便利です。
 
-  npm install -g typescript
+## 使い方
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
-
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+Don't think. feel!
