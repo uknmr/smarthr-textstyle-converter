@@ -1,0 +1,10 @@
+{
+  "name": "SmartHR TextStyle Converter",
+  "id": "1088020000205121626",
+  "api": "1.0.0",
+  "main": "dist/main.es.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "dist/index.html"
+}
